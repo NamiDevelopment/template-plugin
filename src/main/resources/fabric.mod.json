@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "template-plugin",
+  "version": "${version}",
+  "name": "template-plugin",
+  "description": "Template plguin for NamiClient",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "namidevelopment.kiriyaga.templateplugin.client.TemplatePluginClient"
+    ],
+    "main": [
+      "namidevelopment.kiriyaga.templateplugin.TemplatePlugin"
+    ]
+  },
+  "mixins": [
+    "template-plugin.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
