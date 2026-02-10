@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "template-plugin",
+  "id": "nami-template-plugin",
   "version": "${version}",
-  "name": "template-plugin",
+  "name": "nami-template-plugin",
   "description": "Template plguin for NamiClient",
   "authors": [],
   "contact": {},

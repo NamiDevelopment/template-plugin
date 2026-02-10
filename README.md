@@ -3,6 +3,8 @@
 ## ZERO TRUST
 Keep in mind, plugins are unsandboxed, never launch any plugins you dont trust, you cant read its source! It is highly recommended to use only plugins you made yourself, or ones published on github!
 
+<img width="1920" height="1080" alt="ClickGUI" src="assets/nami-plugin-fun.png" />
+
 ### API
 Join our discord (https://discord.gg/auHTtNAqRq) to get news about api and plugin development
 API is currently still in development, it is expected if many things gonna change
