@@ -11,7 +11,7 @@ import java.util.List;
 
 import static namidevelopment.kiriyaga.api.NamiApi.*;
 
-@RegisterCommand
+//@RegisterCommand oops yeah its not added yet!
 public class UnbindAllCommand extends Command {
 
     public UnbindAllCommand() {
